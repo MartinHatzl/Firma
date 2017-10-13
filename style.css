@@ -17,6 +17,21 @@ h1 {
   background-position: center;
 }
 
+.header {
+  height: 100vh;
+}
+
+.line {
+  width: 50px;
+  border-width: 3px;
+  border-color: black;
+  margin-left: 0;
+}
+
+.mobile-image {
+  display: none;
+}
+
 @media(max-width: 1300px) {
   .background {
     background-image: url("./img/herotablet.jpg");
@@ -27,13 +42,28 @@ h1 {
   }
 }
 
-.header {
-  height: 100vh;
-}
+@media(max-width: 800px) {
+  .background {
+    background-image: none;
+  }
 
-hr {
-  width: 50px;
-  border-width: 3px;
-  border-color: black;
-  margin-left: 0;
+  h1 {
+    font-size: 3rem;
+  }
+
+  .mobile-image {
+    width: 100%;
+    display: block;
+  }
+
+  .header {
+    height: 100%;
+    margin-top: 4rem;
+    align-items: stretch !important;
+    text-align: center;
+  }
+
+  .line {
+    margin-left: auto;
+  }
 }
