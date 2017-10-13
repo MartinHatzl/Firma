@@ -32,7 +32,7 @@ h1 {
   display: none;
 }
 
-@media(max-width: 1300px) {
+@media(max-width: 1199px) {
   .background {
     background-image: url("./img/herotablet.jpg");
   }
@@ -42,7 +42,13 @@ h1 {
   }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 991px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 767px) {
   .background {
     background-image: none;
   }
