@@ -4,3 +4,16 @@ h1 {
   font-size: 5rem;
   letter-spacing: 4px;
 }
+
+.background {
+  position: relative;
+  height: 100vh;
+  min-height: auto;
+  object-fit: scale-down;
+  background-image: url("./img/heropc.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
