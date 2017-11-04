@@ -3,6 +3,15 @@ h1 {
   font-weight: 500;
   font-size: 5rem;
   letter-spacing: 4px;
+  text-align: center;
+  line-height: 0.9em;
+  color: black;
+  
+}
+
+p {
+  text-align: center;
+  color: black;
 }
 
 .background {
@@ -25,7 +34,7 @@ h1 {
   width: 50px;
   border-width: 3px;
   border-color: black;
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .mobile-image {
@@ -37,15 +46,15 @@ h1 {
     background-image: url("./img/herotablet.jpg");
   }
 
-  h1 {
-    font-size: 4rem;
-  }
+ 
 }
 
 @media(max-width: 991px) {
+ 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
+
 }
 
 @media(max-width: 767px) {
@@ -69,7 +78,5 @@ h1 {
     text-align: center;
   }
 
-  .line {
-    margin-left: auto;
-  }
+ 
 }
