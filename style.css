@@ -106,3 +106,9 @@ p {
   text-align: center;
 }
 
+.nav-to-white {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  background: white !important;
+}
