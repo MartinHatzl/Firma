@@ -142,18 +142,23 @@
     }
   });
 
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
+  // White Navbar
+  var navbarWhite = function() {
+    if ($("#mainNav").offset().top > 200) {
       $("#mainNav").addClass("nav-to-white");
+      $("#mainNav").removeClass("nav-to-transparent");
     } else {
+      $("#mainNav").addClass("nav-to-transparent");
       $("#mainNav").removeClass("nav-to-white");
     }
   };
 
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+
+  navbarWhite();
+  // White navbar when page is scrolled
+  $(window).scroll(navbarWhite);
+
+
 })(jQuery); // End of use strict
   </script>
 </body>

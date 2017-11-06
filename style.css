@@ -24,6 +24,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
@@ -88,7 +89,7 @@ p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, .9);
+  background: rgba(255, 255, 255, .6);
   -webkit-transition: all .1s;
   -moz-transition: all .1s;
   transition: all .1s;
@@ -107,8 +108,14 @@ p {
 }
 
 .nav-to-white {
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-  background: white !important;
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  transition: all 0.9s;
+  background: rgba(255, 255, 255, .6) !important;
+}
+.nav-to-transparent {
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  transition: all 0.9s;
+  background: rgba(0, 255, 255, .6) !important;
 }
