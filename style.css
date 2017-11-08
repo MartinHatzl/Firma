@@ -38,6 +38,11 @@ p {
   margin-left: auto;
 }
 
+#section1 {
+  background-color: black
+  
+}
+
 .mobile-image {
   display: none;
 }
