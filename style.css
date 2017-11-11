@@ -16,10 +16,8 @@ p {
   text-transform: uppercase;
 }
 
-p#info {
-  position: absolute;
-  bottom: 0px;
-  margin: auto;
+#info {
+color: greenyellow;
 }
 
 .background {
