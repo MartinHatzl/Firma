@@ -38,6 +38,10 @@ color: greenyellow;
   height: 100vh;
 }
 
+.header-main-content {
+  height: 95vh;
+}
+
 .line {
   width: 50px;
   border-width: 2px;
