@@ -16,6 +16,12 @@ p {
   text-transform: uppercase;
 }
 
+p#info {
+  position: absolute;
+  bottom: 0px;
+  margin: auto;
+}
+
 .background {
   position: relative;
   height: 100vh;
@@ -51,7 +57,7 @@ hr#secondline {
   margin-bottom: 6px
   }
 
-  hr#thirdline {
+hr#thirdline {
     margin-top: -8px;
     margin-bottom: 48px
     }
