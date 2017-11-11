@@ -150,3 +150,7 @@ hr#thirdline {
   transition: all 0.9s;
   background: transparent;
 }
+
+.modal-lg {
+  max-width: 95%;
+}
