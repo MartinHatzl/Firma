@@ -132,8 +132,6 @@ hr#thirdline {
   font-size: 14px;
   padding-left: 4px;
   padding-right: 4px; 
-  padding-left: 24px;
-  padding-right: 24px;
   text-decoration: underline;
   color: black;
 }
@@ -167,6 +165,57 @@ hr#thirdline {
   
 }
 
+.lightlinkanimation:link{
+  background-image: linear-gradient(to left, #000 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.lightlinkanimation:hover{
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  /** START THE FINAL STATE STYLING **/
+  background-position: bottom left;
+  color: #000;
+  text-decoration: none;
+}
+
+.lightlinkanimation:active{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.lighttextlink {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  padding-left: 4px;
+  padding-right: 4px; 
+  text-decoration: underline;
+  color:white;
+}
+
+.lightbutton {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin:0 auto;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #fff;
+  color:#fff;
+  
+}
 
 .mobile-image {
   display: none;
