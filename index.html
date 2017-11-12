@@ -15,7 +15,7 @@
 </head>
 <body>
   <nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-    <a class="navbar-brand" href="#">Brugger-Hatzl</a>
+    <a class="navbarlogo" href="#">Brugger-Hatzl</a>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav">
           <li class="nav-item">
@@ -191,9 +191,14 @@
     if ($("#mainNav").offset().top > 200) {
       $("#mainNav").addClass("nav-to-white");
       $("#mainNav").removeClass("nav-to-transparent");
+      $(".navbarlogo").addClass("navbarlogo-black");
+      $(".navbarlogo").removeClass("navbarlogo-transparent");
     } else {
       $("#mainNav").addClass("nav-to-transparent");
       $("#mainNav").removeClass("nav-to-white");
+
+      $(".navbarlogo").removeClass("navbarlogo-black");
+      $(".navbarlogo").addClass("navbarlogo-transparent");
     }
   };
 

@@ -161,7 +161,8 @@ hr#thirdline {
   }
   h1 {
     font-size: 3rem;
-  
+  }
+ 
 }
 
 .portfolio-box {
@@ -214,3 +215,18 @@ hr#thirdline {
 .modal-lg {
   max-width: 95%;
 }
+
+.navbarlogo-black{
+color: black;
+text-decoration: none;
+-webkit-transition: all 0.9s;
+-moz-transition: all 0.9s;
+transition: all 0.9s;
+}
+
+.navbarlogo-transparent{
+  color: transparent;
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  transition: all 0.9s;
+  }
