@@ -99,16 +99,31 @@ hr#thirdline {
 }
 
 .darktextlink {
+  font-family: 'Open Sans';
   font-size: 14px;
   padding-left: 4px;
   padding-right: 4px; 
+  padding-left: 24px;
+  padding-right: 24px;
   text-decoration: underline;
+  color: black;
+}
+
+.navlink {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  padding-top:8px;
   color: black;
 }
 
   
 
 .darkbutton {
+  font-family: 'Open Sans';
+  font-size: 14px;
   width: 200px;
   height: auto;
   overflow: hidden;
