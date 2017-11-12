@@ -72,12 +72,7 @@ hr#thirdline {
   
 }
 
-.textlink:link {
-  font-size: 14px;
-  padding-left: 4px;
-  padding-right: 4px; 
-  color: black;
-  text-decoration: underline;
+.darklinkanimation:link{
   background-image: linear-gradient(to left, #fff 50%, #000 50%);
   background-size: 200% 100%;
   background-repeat: no-repeat;
@@ -87,28 +82,33 @@ hr#thirdline {
   transition: all 0.1s ease-in;
 }
 
-
-.textlink:hover {
-  padding-left: 4px;
-  padding-right: 4px; 
+.darklinkanimation:hover{
   -webkit-transition: all 0.1s ease-in;
   -moz-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
   /** START THE FINAL STATE STYLING **/
   background-position: bottom left;
   color: #fff;
+  text-decoration: none;
 }
 
-  .textlink:active {
+.darklinkanimation:active{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.darktextlink {
+  font-size: 14px;
   padding-left: 4px;
   padding-right: 4px; 
-    color: white;
-    background-color: black
-  }
+  text-decoration: underline;
+  color: black;
+}
 
   
 
-.darkbutton:link {
+.darkbutton {
   width: 200px;
   height: auto;
   overflow: hidden;
@@ -118,32 +118,11 @@ hr#thirdline {
   margin:0 auto;
   text-decoration: none;
   font-size: 14px;
-  font-family: "Source Sans Pro", sans-serif;
   border: 1px solid #000;
   color:#000;
-  background-image: linear-gradient(to left, #fff 50%, #000 50%);
-  background-size: 200% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  -webkit-transition: all 0.1s ease-in;
-  -moz-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
+  
 }
 
-
-.darkbutton:hover {
-  -webkit-transition: all 0.1s ease-in;
-  -moz-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
-  /** START THE FINAL STATE STYLING **/
-  background-position: bottom left;
-  color: #fff;
-}
-
-.darkbutton:active {
-    color: white;
-    background-color: black
-  }
 
 .mobile-image {
   display: none;
