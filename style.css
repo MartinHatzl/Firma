@@ -72,6 +72,36 @@ hr#thirdline {
   
 }
 
+a:link {
+
+  padding-left: 4px;
+  padding-right: 4px; 
+  color: black;
+  text-decoration: underline;
+  background-image: linear-gradient(to left, #fff 50%, #000 50%);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+
+a:hover {
+
+  padding-left: 4px;
+  padding-right: 4px; 
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  /** START THE FINAL STATE STYLING **/
+  background-position: bottom left;
+  color: #fff;
+
+
+}
+
 .mobile-image {
   display: none;
 }
