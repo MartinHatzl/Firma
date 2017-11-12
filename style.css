@@ -9,16 +9,19 @@ h1 {
 }
 
 p {
+
   text-align: center;
   color:black;
   font-family: 'Open Sans';
+
+}
+
+p.hero-text {
+ 
   letter-spacing: 4px;
   text-transform: uppercase;
 }
 
-#info {
-color: greenyellow;
-}
 
 .background {
   position: relative;
