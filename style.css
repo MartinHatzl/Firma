@@ -145,7 +145,7 @@ hr#thirdline {
 
 @media(max-width: 1199px) {
   .background {
-    background-image: url("./img/herotablet.jpg");
+    background-image: url("./img/heropc.jpg");
   }
 }
 
@@ -161,17 +161,7 @@ hr#thirdline {
   }
   h1 {
     font-size: 3rem;
-  }
-  .mobile-image {
-    width: 100%;
-    display: block;
-  }
-  .header {
-    height: 100%;
-    margin-top: 4rem;
-    align-items: stretch !important;
-    text-align: center;
-  }
+  
 }
 
 .portfolio-box {
